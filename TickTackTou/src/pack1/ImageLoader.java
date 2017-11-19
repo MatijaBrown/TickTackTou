@@ -12,6 +12,7 @@ public class ImageLoader {
 	
 	public ImageLoader() {
 		try {
+			// Da ist wohl noch was im A....
 			imgX = ImageIO.read(new File("C:\\Users\\Matij\\eclipse-workspace\\TickTackTou/res/x.png"));
 			imgO = ImageIO.read(new File("res/o.png"));
      		imgOWin = ImageIO.read(new File("res/O-HatGewonnenJo.png"));
